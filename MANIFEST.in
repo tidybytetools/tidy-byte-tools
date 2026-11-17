@@ -1,0 +1,8 @@
+include CHANGELOG.md
+include llms.txt
+include server.json
+include glama.json
+include Dockerfile
+recursive-include tests *.py *.json *.md *.pdf *.html
+recursive-include docs/examples *
+include docs/demo.gif

@@ -1,0 +1,19 @@
+# tidy-byte-tools
+
+> One install and one MCP server for the free Tidy Byte Tools lite CLIs. Repair JSON, turn notes into JSON, encode Base64, hash files, chunk Markdown, convert PDFs and HTML to Markdown, extract PDF tables, and check links. Runs on your computer. No API key. MIT license.
+
+- Install: `pip install git+https://github.com/tidybytetools/tidy-byte-tools` (not on PyPI yet)
+- CLI: `tidy-byte-tools <command>` or `tbt <command>`. Commands: json-repair, json-shaper, base64, hash, md-chunk, doc2md, pdf-table-pull, link-check. The original lite commands are also installed.
+- MCP: `uvx --from git+https://github.com/tidybytetools/tidy-byte-tools tidy-byte-tools mcp` (or `tidy-byte-tools-mcp`) exposes 15 tools over stdio. Base64 tools are named `base64_convert_text` and `base64_convert_file` so they are not confused with the document converter.
+- Python: import the lite packages directly, for example `from json_repair_lite import repair_one`.
+
+## Use when
+- You want one install or one MCP server for several local Tidy Byte Tools, instead of adding each lite on its own.
+
+## Don't use when
+- You need a hosted / pay-per-use run. Use the Apify store: https://apify.com/tidybytetools or the HTTPS API: https://tidybytetools.tidybytetools.workers.dev
+
+## Links
+- [README](https://github.com/tidybytetools/tidy-byte-tools/blob/main/README.md)
+- [Apify store](https://apify.com/tidybytetools)
+- [HTTPS API](https://tidybytetools.tidybytetools.workers.dev)
