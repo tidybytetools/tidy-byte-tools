@@ -13,7 +13,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![MCP server](https://img.shields.io/badge/MCP-stdio-purple.svg)](#use-it-from-claude-desktop-cursor-or-vs-code)
 [![Tests](https://github.com/tidybytetools/tidy-byte-tools/actions/workflows/tests.yml/badge.svg)](https://github.com/tidybytetools/tidy-byte-tools/actions/workflows/tests.yml)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/tidybytetools/tidy-byte-tools/releases/tag/v0.1.0)
+[![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)](https://github.com/tidybytetools/tidy-byte-tools/releases/tag/v0.1.1)
 
 One install for our free local tools: fix broken JSON, pull tables out of a PDF, turn documents into Markdown, and more. It also starts **one MCP server** with all of those tools, so an AI assistant can use them on your computer. No API key.
 
@@ -76,7 +76,7 @@ repair_one("{name: 'Ada',}")["value"]  # {'name': 'Ada'}
 
 ## Use it from Claude Desktop, Cursor, or VS Code
 
-The MCP server talks over stdio. After you install the package, add one of these configs. If you would rather not install it first, `uvx` can run it from GitHub.
+The MCP server talks over stdio. After you install the package, add one of these configs. If you would rather not install it first, `uvx` can run it straight from PyPI.
 
 Claude Desktop (`claude_desktop_config.json`) and Cursor (`.cursor/mcp.json`):
 
@@ -146,7 +146,7 @@ The site is [https://tidybytetools.github.io](https://tidybytetools.github.io).
 - `link-check` needs a network. The other tools work offline.
 - The PDF tools read text PDFs. A scanned page with no text layer will not give useful tables or Markdown.
 - This wrapper does not change how each lite tool works. See that tool's README for its flags and limits.
-- Official PyPI and MCP Registry install names for this toolkit are not live yet. Use the GitHub install above until they are.
+- In the Official MCP Registry as `io.github.tidybytetools/tidy-byte-tools`. You can also install the latest code from GitHub: `pip install git+https://github.com/tidybytetools/tidy-byte-tools`.
 
 ## License
 
