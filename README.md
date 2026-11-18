@@ -42,19 +42,19 @@ printf '{name: "Ada", city: "Austin",}' | tidy-byte-tools json-repair -q
 
 ## Install
 
-Needs Python 3.10 or newer. This package is not on PyPI yet, so install it from GitHub:
+Needs Python 3.10 or newer. Install it from PyPI:
 
 ```bash
-pip install git+https://github.com/tidybytetools/tidy-byte-tools
+pip install tidy-byte-tools
 ```
 
 Or use pipx, which keeps it in its own space:
 
 ```bash
-pipx install git+https://github.com/tidybytetools/tidy-byte-tools
+pipx install tidy-byte-tools
 ```
 
-That also installs the eight lite tools. Three of them (json-repair-lite, base64-lite, and hash-lite) are pulled from their GitHub tags until they are on PyPI. The others come from PyPI.
+That also installs the eight lite tools. All of them come from PyPI. (hash-lite's PyPI name is `tidy-hash-lite`.)
 
 ## Use it
 
@@ -87,7 +87,7 @@ Claude Desktop (`claude_desktop_config.json`) and Cursor (`.cursor/mcp.json`):
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/tidybytetools/tidy-byte-tools",
+        "tidy-byte-tools",
         "tidy-byte-tools-mcp"
       ]
     }
@@ -106,7 +106,7 @@ VS Code (`.vscode/mcp.json`):
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/tidybytetools/tidy-byte-tools",
+        "tidy-byte-tools",
         "tidy-byte-tools-mcp"
       ]
     }

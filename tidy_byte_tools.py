@@ -5,7 +5,7 @@ from __future__ import annotations
 import importlib
 import sys
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 # subcommand -> (importable module with main(), argv0 so that tool's own help still makes sense)
 COMMANDS = {

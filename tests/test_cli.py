@@ -24,7 +24,7 @@ class Cli(unittest.TestCase):
     def test_version(self):
         out = _run(["--version"])
         self.assertEqual(out.returncode, 0)
-        self.assertEqual(out.stdout.strip(), "0.1.0")
+        self.assertEqual(out.stdout.strip(), "0.1.1")
 
     def test_help_lists_commands(self):
         out = _run(["--help"])

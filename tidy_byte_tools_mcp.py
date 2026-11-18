@@ -1,7 +1,7 @@
 """One MCP server that exposes the Tidy Byte Tools lite tools over stdio.
 
-Run:  uvx --from git+https://github.com/tidybytetools/tidy-byte-tools tidy-byte-tools mcp
-  or: uvx --from git+https://github.com/tidybytetools/tidy-byte-tools tidy-byte-tools-mcp
+Run:  uvx --from tidy-byte-tools tidy-byte-tools mcp
+  or: uvx --from tidy-byte-tools tidy-byte-tools-mcp
 """
 
 from __future__ import annotations

@@ -2,19 +2,19 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.tidybytetools/tidy-byte-tools",
   "title": "Tidy Byte Tools",
-  "description": "One MCP server for the Tidy Byte Tools lite CLIs: repair JSON, extract PDF tables, convert documents to Markdown, and more. Runs locally. No API key.",
+  "description": "One local MCP server: repair JSON, PDF tables to CSV, docs to Markdown, hashes and more. No API key.",
   "repository": {
     "url": "https://github.com/tidybytetools/tidy-byte-tools",
     "source": "github"
   },
   "websiteUrl": "https://github.com/tidybytetools/tidy-byte-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "tidy-byte-tools",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"

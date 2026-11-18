@@ -2,6 +2,11 @@
 
 What changed in tidy-byte-tools, newest first.
 
+## 0.1.1 - unreleased
+
+- First PyPI release. Every dependency now comes from PyPI (no GitHub installs). hash-lite is installed as `tidy-hash-lite`, its PyPI name.
+- Shorter MCP Registry description.
+
 ## 0.1.0 - 2026-11-17
 
 - First release.

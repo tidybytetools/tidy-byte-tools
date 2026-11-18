@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tidy-byte-tools"
-version = "0.1.0"
+version = "0.1.1"
 description = "One install and one MCP server for the Tidy Byte Tools lite CLIs: repair JSON, extract PDF tables, convert documents to Markdown, and more. Runs locally. No API key."
 readme = "README.md"
 license = "MIT"
@@ -18,9 +18,9 @@ dependencies = [
   "doc2md-lite>=1.2.2",
   "pdf-table-pull-lite>=1.3.1",
   "link-check-lite>=1.1.4",
-  "json-repair-lite @ git+https://github.com/tidybytetools/json-repair-lite@v1.0.0",
-  "base64-lite @ git+https://github.com/tidybytetools/base64-lite@v1.0.0",
-  "hash-lite @ git+https://github.com/tidybytetools/hash-lite@v1.0.0",
+  "json-repair-lite>=1.0.1",
+  "base64-lite>=1.0.1",
+  "tidy-hash-lite>=1.0.1",
 ]
 keywords = ["mcp", "mcp-server", "json", "markdown", "pdf", "data-cleaning", "developer-tools", "cli"]
 classifiers = [
